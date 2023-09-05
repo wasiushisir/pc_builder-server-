@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const uri =
-  "mongodb+srv://wasiuahmed410:xqq7rAzRx7upPqCk@cluster0.w0fjwcc.mongodb.net/";
+  "mongodb+srv://wasiuahmed410:xqq7rAzRx7upPqCk@cluster0.w0fjwcc.mongodb.net/pc_builder";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
