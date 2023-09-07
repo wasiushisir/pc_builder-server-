@@ -22,7 +22,7 @@ const run = async () => {
 
   const pc_builderCollection = client.db("pc_builder").collection("pc");
   const build_builderCollection = client.db("pc_builder").collection("build");
-  console.log(" You successfully connected to MongoDB!");
+  console.log(" You successfully connected to MongoDB!!!");
 
   app.get("/pc", async (req, res) => {
     const pcs = await pc_builderCollection.find({}).toArray();
