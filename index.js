@@ -17,7 +17,7 @@ const client = new MongoClient(uri, {
 });
 
 const run = async () => {
-  await client.connect();
+  // await client.connect();
   // Send a ping to confirm a successful connection
 
   const pc_builderCollection = client.db("pc_builder").collection("pc");
